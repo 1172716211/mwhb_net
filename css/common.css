@@ -1,0 +1,51 @@
+@charset "UTF-8";
+html{background:#fff;overflow:auto;}
+body{min-width:1200px;font:12px/18px "Microsoft Yahei";color:#000; font-weight:normal; -webkit-font-smoothing: antialiased; }
+a{color:#000; text-decoration:none; cursor:pointer; outline: 0 none;}
+a:hover{ text-decoration:none;color:#000;}
+a:focus{-moz-outline-style:none; border:0px;blr:expression(this.onFocus=this.blur());}
+:focus{ outline: none; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0; padding:0; border:0 none;}
+header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+ol,li,ul,dl,dt,dd{list-style:none;}
+fieldset,img {border:0}
+button,submit,input,select { vertical-align:middle;}
+button,submit { cursor:pointer;}
+textarea{ resize: none; overflow: hidden; }
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:lighter;}
+table{border-collapse:collapse; border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+select,button{font-family:inherit; font-size:inherit; font-weight:inherit; outline-style:none; outline-width:0pt; padding: 0; margin: 0;}
+b,em,i{display:inline-block; font-weight:normal; font-style:normal;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;} 
+.clearfix{ zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+input{background: none;}
+
+.header{width: 1200px;height: 120px;margin:0 auto;}
+.logo{margin:26px 86px 0px 68px;}
+.logo img{width: 318px;height: 68px;}
+.header ul{padding-top: 48px;}
+.header li{float: left;margin:0px 30px;}
+.header li a{font-family: "Microsoft Yahei";font-size: 18px;color: #333;text-align: center;}
+.header li a:hover,.header li .current{border-bottom: 3px solid #009933;}
+
+.banner{overflow: hidden;}
+.banner .slidebox{width:1920px; height:600px;position: relative;left: 50%;margin-left: -960px;overflow: hidden;}
+.banner .slidebox .pic{position: absolute;}
+.banner .slidebox .pic img{display:block;width:1920px; height:600px;}
+.banner .slidebox .btn{width:100%;height:32px;position: absolute;left:0px;bottom: 25px;}
+.banner .slidebox .btn ul{height: 32px;text-align: center; font-size: 0px;}
+.banner .slidebox .btn ul li{cursor:pointer;display: inline-block;width:32px;height:32px;margin:0px 30px;border-radius: 50%; background: #b2afaf;behavior:url(js/PIE.htc);position:relative;}
+.banner .slidebox .btn ul li:hover,.banner .slidebox .btn ul .on{background-color: #009642;}
+
+.footer{width: auto;height:auto;}
+.footer .link{width: auto;background: #e1e1e3;padding: 50px 0px 65px 0px;text-align: center;}
+.footer .link .main{display: inline-block;}
+.footer .link dl{float:left;height:100%;padding:0px 80px 0px 20px;text-align: left;}
+.footer .link dt{font-family: "Microsoft Yahei";font-size:24px; color: #333;line-height: 48px;text-transform: uppercase;}
+.footer .link dd a{font-family: "Microsoft Yahei";font-size:18px; color: #333;line-height: 48px;}
+.footer .link .code{text-align: center;}
+.footer .copyright{width: auto;height:75px;background: #00b13a;font-family: "Microsoft Yahei";font-size:14px; color: #fff;line-height: 75px;text-align: center;}

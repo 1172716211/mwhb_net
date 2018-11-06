@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.service{width: 1200px;height: auto;margin: 0 auto;}
+.service ul{padding:86px 0px 90px;overflow: hidden;}
+.service ul li{float:left;width:125px;margin:0 80px;text-align: center;}
+.service ul li img{width: 125px;height: 123px;padding-bottom: 24px;}
+.service ul li span{font-family: "Microsoft Yahei";font-size: 28px;color: #333;}
+
+.title{height: 64px;border-left: 8px solid #00b13a;padding-left: 10px;margin-bottom: 76px;}
+.title h2{font-family: "Microsoft Yahei";font-size: 30px;color: #333;line-height: 30px;padding-bottom: 16px;}
+.title span{font-family: Arial;font-size: 24px;color: #999;text-transform: uppercase;}
+.more{font-family: "Microsoft Yahei";font-size: 14px;color: #00b13a;text-transform: uppercase;padding-left: 16px;}
+.content .main{width: 1200px;height: 100%;margin:0 auto;}
+.content .main .top{padding:48px 12px 18px;}
+.content .main .top a{margin-top: 46px;}
+.content .about .main,.content .news .main{padding-left: 12px;}
+.content .about .main .left,.content .news .main .left{width: 560px;float:left;}
+
+.content .about{width: auto;background-color: #e1e1e3;}
+.content .about .main .left{padding:168px 0px 120px;}
+.content .about .main .left p{font-family: "Microsoft Yahei";font-size: 14px;color:#333;line-height: 30px;text-indent: 2em;text-align: justify;}
+.content .about .main img{float: right;width:620px;height:648px;}
+
+.content .news {width: auto;padding:90px 0px 44px; }
+.content .news .main .left li h3{font-family: "Microsoft Yahei";font-size: 20px;color: #333;line-height: 30px;text-transform: uppercase;}
+.content .news .main .left li span{display:block;font-family: "Microsoft Yahei";font-size: 14px;color:#333;text-align: right;}
+.content .news .main .left li{padding-bottom: 50px;}
+.content .news .main .left li p{font-family: "Microsoft Yahei";font-size: 14px;color:#333;line-height: 30px;text-indent: 0em;text-align: justify;}
+.content .news .main img{float: right;box-shadow: 0px 2px 10px #080103;behavior:url(js/PIE.htc);position:relative;}
+
+.products {width: auto;background: #e1e1e3;}
+.products .main .list{width: 1200px;padding-bottom: 68px;}
+.products .main .list li{float: left;margin: 10px;box-shadow: 0px 2px 10px #080103;border-bottom: 6px solid #00b13a;behavior:url(js/PIE.htc);position:relative;}
+.products .main .list li img{display: block;width: 380px;height: 338px;}
+.products .main .list li p{width:100%;height: 34px;background-color: #ffffff;}
+.products .main .list li p a{display: block; font-family: "Microsoft Yahei";font-size: 14px;padding:11px 0px 5px;color:#333;text-align: center;text-transform: uppercase; }
+.products .main .list li:hover a{color: #fdfbfb;background-color: #00b13a;}
+
+.contact{width: auto;padding-bottom: 162px;}
+.bottom{padding:0px 12px;}
+.bottom .tel p{font-family: "Microsoft Yahei";font-size: 14px;color:#333;padding-bottom: 20px;}
+.bottom .map{width: 680px;height: 334px;box-shadow: 0px 2px 10px #080103;behavior:url(js/PIE.htc);position:relative;}
